@@ -6,3 +6,5 @@
 @media(orientation:landscape) and (min-width:761px) and (max-height:900px){.topbar{min-height:70px;padding-top:10px;padding-bottom:10px}.steps{margin-bottom:14px;padding:7px 0}.editor-top{margin-bottom:10px}.board{height:clamp(285px,calc(100dvh - 290px),580px)}.tools{padding-top:10px}.footer{margin-top:12px}.hero{padding-top:10px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 [hidden]{display:none!important}.section-space{margin-top:18px}.board [data-line]:focus-visible .edge-visible{stroke:#ffe3a3;stroke-width:4}
+
+.star-colors{flex-basis:100%}.star-colors button{display:inline-flex;align-items:center;gap:8px;min-height:48px}.color-dot{display:inline-block;width:20px;height:20px;flex:0 0 20px;border-radius:50%;background:var(--star-color);box-shadow:0 0 8px color-mix(in srgb,var(--star-color) 30%,transparent);border:1px solid #ffffff50}.star-colors button[aria-pressed=true]{outline:2px solid var(--gold);outline-offset:1px}
